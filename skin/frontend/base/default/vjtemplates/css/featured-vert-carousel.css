@@ -1,0 +1,39 @@
+/*
+#------------------------------------------------------------------------
+  Magento Extension - Featured Product Carousel
+#------------------------------------------------------------------------
+# Copyright (C) 2008-2012 VJ Templates. All Rights Reserved.
+# @license - Commercial
+# Author: VJ Templates (dba NGIS Design)
+# Websites: http://www.vjtemplates.com
+#------------------------------------------------------------------------
+*/
+
+/* Vertical Carousel */
+.jcarousel-skin-vjt-featured-vert .jcarousel-container { position:relative; }
+.jcarousel-skin-vjt-featured-vert .jcarousel-clip { z-index:2; padding:0; margin:0; overflow:hidden; position:relative; }
+.jcarousel-skin-vjt-featured-vert .jcarousel-list { z-index:1; overflow:hidden; position:relative; top:0; left:0; margin:0; padding:0; }
+.jcarousel-skin-vjt-featured-vert .jcarousel-list li, .jcarousel-skin-vjt-featured-vert .jcarousel-item { float:left; list-style:none; width:165px; height:220px; margin:0 0 10px 0; text-align:center; }
+.jcarousel-skin-vjt-featured-vert .jcarousel-next { z-index:3; display:none; }
+.jcarousel-skin-vjt-featured-vert .jcarousel-prev { z-index:3; display:none;}
+.jcarousel-skin-vjt-featured-vert { width:100%; background:none; margin:10px 0; }
+.jcarousel-skin-vjt-featured-vert .jcarousel-container-vertical { width:180px; padding:18px 5px 18px; }
+.jcarousel-skin-vjt-featured-vert .jcarousel-clip-vertical { width:170px; height:220px; border:1px solid #ccc; padding:5px 5px 0 5px; margin:5px 0; }
+.jcarousel-skin-vjt-featured-vert .jcarousel-item-vertical { margin-right:0px; }
+.jcarousel-skin-vjt-featured-vert .jcarousel-item-placeholder { background:#fff; color:#000; }
+.jcarousel-skin-vjt-featured-vert .jcarousel-next-vertical { position:absolute; left:75px; bottom:0; width:28px; height:18px; cursor:pointer; background: url(../images/next-vertical.png) no-repeat 0 0; }
+.jcarousel-skin-vjt-featured-vert .jcarousel-next-vertical:hover { background-position:0 0; }
+.jcarousel-skin-vjt-featured-vert .jcarousel-next-vertical:active { background-position:0 0; }
+.jcarousel-skin-vjt-featured-vert .jcarousel-next-disabled-vertical, .jcarousel-skin-vjt-featured-vert .jcarousel-next-disabled-vertical:hover, .jcarousel-skin-vjt-featured-vert .jcarousel-next-disabled-vertical:active { cursor:default; background-position:0 0; }
+.jcarousel-skin-vjt-featured-vert .jcarousel-prev-vertical { position:absolute; left:75px; top:0; width:28px; height:18px; cursor:pointer; background:url(../images/prev-vertical.png) no-repeat 0 0; }
+.jcarousel-skin-vjt-featured-vert .jcarousel-prev-vertical:hover {background-position:0 0; }
+.jcarousel-skin-vjt-featured-vert .jcarousel-prev-vertical:active { background-position:0 0; }
+.jcarousel-skin-vjt-featured-vert .jcarousel-prev-disabled-vertical, .jcarousel-skin-vjt-featured-vert .jcarousel-prev-disabled-vertical:hover, .jcarousel-skin-vjt-featured-vert .jcarousel-prev-disabled-vertical:active { cursor:default; background-position:0 0; }
+.jcarousel-skin-vjt-featured-vert .product-name a { font-size:13px; color:black; font-weight:bold; }
+.jcarousel-skin-vjt-featured-vert .regular-price .price { color:#c76200; }
+.jcarousel-skin-vjt-featured-vert ul#vjt-vert-carousel li.jcarousel-item div.actions { float:left; width:100%; padding:0; text-align:center; }
+.block .jcarousel-skin-vjt-featured-vert .actions button.button { float:left; width:100%; background:none; text-align:center; }
+.block .jcarousel-skin-vjt-featured-vert .actions button.button span { width:100%; text-align:center; padding:0; }
+.jcarousel-skin-vjt-featured-vert ul.add-to-links li { width:100%; height:20px; border:0; margin:0; padding:0; text-align:center; }
+.jcarousel-skin-vjt-featured-vert ul.add-to-links li a { width:100%; text-align:center; }
+#preview { position:absolute; border:1px solid #ccc; background:#ccc; padding:10px; display:none; font-weight:bold; font-size:16px; color:white; border-radius:5px; z-index:100; }

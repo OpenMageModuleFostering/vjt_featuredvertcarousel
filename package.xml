@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>vjt_featuredvertcarousel</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL V3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Featured Product Vertical Carousel</summary>
+    <description>Featured Product Vertical Carousel by VJ Templates</description>
+    <notes>Magento CE 1.5 - 1.7</notes>
+    <authors><author><name>VJ Templates</name><user>vjtemplates</user><email>vjt@vjtemplates.com</email></author></authors>
+    <date>2013-09-16</date>
+    <time>00:06:02</time>
+    <contents><target name="magecommunity"><dir name="VJTemplates"><dir name="FeaturedVertCarousel"><dir name="Block"><dir name="Category"><file name="View.php" hash="2b5a748336a74e98b84ba613a9921aee"/></dir><dir name="Product"><file name="Featured.php" hash="ce554e0fcacfcb5b8b12867c7a9d6d02"/></dir></dir><dir name="Helper"><file name="Data.php" hash="2826e989b6bf500355af63e10e42bd5d"/></dir><dir name="controllers"><file name="IndexController.php" hash="ce40989bdfa2ea4332a6dd291bf64b36"/></dir><dir name="etc"><file name="config.xml" hash="ff87f7041f378e976d6d05175906c989"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="vjtemplates"><file name="featuredvertcarousel.xml" hash="eeae4ac36818c90997c53dd031cf2f4f"/></dir></dir><dir name="template"><dir name="vjtemplates"><dir name="catalog"><dir name="product"><file name="featured-vert-carousel.phtml" hash="413393d8d0ed4b77bc3468876d912b48"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="VJTemplates_FeaturedVertCarousel.xml" hash="1360bad717eba3acc3f9178230e23d61"/></dir></target><target name="mage"><dir name="js"><dir name="jquery"><file name="jquery-1.6.4.min.js" hash="0bd074f6e49da04536b3ce289e3f7448"/></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="vjtemplates"><dir name="css"><file name="featured-vert-carousel.css" hash="99d61da412c463bf133ddd077a70fa8b"/></dir><dir name="images"><file name="next-horizontal.png" hash="fa5bfea6029803d4382e257f3e407269"/><file name="prev-horizontal.png" hash="e9e56e2851122f2c3322e3f36841a66b"/></dir><dir name="js"><file name="featured-carousel.js" hash="c3a2be614e256430e178d25d2ddb21ce"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
