@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/vjt_featuredvertcarousel",
+    "name": "OpenMageModuleFostering\/vjt_featuredvertcarousel",
     "type": "magento-module",
     "license": "OSL-V3.0",
     "homepage": "",
     "description": "Featured Product Vertical Carousel",
     "authors": [
-    {
-        "name": "VJ Templates",
-        "email": "vjt@vjtemplates.com"
-    }
-],
+        {
+            "name": "VJ Templates",
+            "email": "vjt@vjtemplates.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
